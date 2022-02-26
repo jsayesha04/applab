@@ -1,0 +1,276 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* common css start */
+.c_margin{
+    margin-bottom: 60px;
+}
+p{
+    font-size: 15px;
+}
+/* common css end */
+  /* header start */
+.c_btn{
+    font-size: 15px;
+    width: 130px;
+    height: 45px;
+}
+header{
+    padding-top: 20px;
+}
+.logo a{
+    font-size: 22px;
+}
+.menu{
+    text-align: right;
+}
+.menu ul {
+    margin-top: -4px;
+}
+.menu ul li a{
+    margin-right: 0; 
+    padding: 1px 0;
+}  
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.c_toogle {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.c_toogle:focus {
+    box-shadow: none;
+}
+/* header end */
+/* banner start */
+.banner{
+    margin-top: 0;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.editiors_choice{
+    margin: 0 auto;
+    width: 285px;
+    height: 35px;
+    text-align: left;
+}
+.editiors_choice p{
+font-size: 15px;
+}
+.b_text h1 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+.b_text p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.b_text a {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    display: block;
+}
+.b_img{
+    display: none;
+}
+/* banner end */
+/* trust start */
+.trust{
+    margin-top: 50px;
+}
+.trust p {
+    margin-bottom: -15px;
+}
+/* trust end */
+/*ultimate start*/
+.o_item{
+    display: flex;
+}
+.f-img {
+    display: none;
+}
+/*ultimate end*/
+/*revew start*/
+.image{
+    display: none;
+}
+/*revew end*/
+/*download start*/
+.d_img {
+    display: none;
+}
+/*download end*/
+/*footer start*/
+.footer{}
+.f_cont{}
+.f_cont ul li a{}
+
+
+.ft_icon ul li i {
+    font-size: 20px;
+    color: #273043;
+    transition: .3s;
+}
+/*footer end*/
+}
+    
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* common css start */
+.c_margin{
+    margin-bottom: 75px;
+}
+/* common css end */
+    /* header start */
+.c_btn{
+    width: 155px;
+    height: 50px;
+}
+header{
+    padding-top: 40px;
+}
+.menu{
+    text-align: right;
+}
+.menu ul {
+    margin-top: 5px;
+}
+.menu ul li a{
+    margin-right: 0; 
+    padding: 2px 0;
+}  
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* header end */
+/* banner start */
+.banner{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.b_text h1 {
+    margin: 15px 0;
+    font-size: 48px;
+}
+.b_text p {
+    margin-bottom: 30px;
+}
+.b_text a {
+    margin-left: 20px;
+}
+.b_img{
+    display: none;
+}
+/* banner end */
+/* trust start */
+.trust{
+    margin-top: 60px;
+}
+.tm_left {
+    margin-left: 8.33333333%;
+  }
+/* trust end */
+ }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* common css start */
+.c_margin{
+    margin-bottom: 100px;
+}
+/* common css end */
+
+  /* header start */
+header{
+    padding-top: 40px;
+}
+.menu{
+    text-align: right;
+}
+.menu ul {
+    margin-top: 5px;
+}
+.menu ul li a{
+    margin-right: 0; 
+    padding: 2px 0;
+}  
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* header end */
+/* banner start */
+.banner{
+    padding-bottom: 45px;
+}
+.b_text h1 {
+    margin: 18px 0;
+    font-size: 48px;
+}
+.b_text p {
+    margin-bottom: 28px;
+}
+.b_text a {
+    margin-top: 10px;
+    margin-left: 0;
+    display: block;
+}
+/* banner end */
+/* trust start */
+.trust{
+    margin-top: 80px;
+}
+.t_logo img{
+    margin-top: 35px;
+}
+/* trust end */
+/*reavew start*/
+.image{
+    display: none;
+}
+/*reavew end*/
+/* feature start */
+.f-img{
+    display: none;
+}
+/* feature end */
+/*download start*/
+.d_img{
+    display: none;
+}
+/*download end*/
+/*footer start*/
+.footer{
+   padding-bottom: 80px;
+}
+.ft_title{
+   margin: 70px 0 40px; 
+}
+/*footer end*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*download start*/
+.d_img {
+    bottom: -39px;
+    left: 49%;
+}
+/*download end*/
+ }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.d_img {
+    bottom: -46px;
+    left: 49%;
+}
+/*download end*/
+ }
+/* Extra extra large devices ( extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*download start*/
+.d_img {
+    bottom: -54px;
+    left: 49%;
+    }
+/*download end*/
+}
